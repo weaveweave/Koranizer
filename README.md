@@ -36,11 +36,11 @@ Ensure your environment is ready before running the automation.
 1. **Python Installation**: Download and install the latest version of Python from [python.org](https://www.python.org).
    **Windows users**: Ensure "Add Python to PATH" is checked during installation.
    **macOS users**: (optional) install newest version via (brew install python)
-3. **Required Libraries**: Open your **Terminal** (macOS) or **Command Prompt** (Windows) and run:
+2. **pip Installation**: read guide here (https://pip.pypa.io/en/stable/installation/)
+4. **Required Libraries**: Open your **Terminal** (macOS) or **Command Prompt** (Windows) and run:
 ```bash
 pip install -r requirements.txt
 ```
-
 3. **Directory Setup**:
    * Download as .zip
    * Extract zip in a dedicated project folder
