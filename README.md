@@ -33,15 +33,17 @@ Koranizer/
 
 Ensure your environment is ready before running the automation.
 
-1. **Python Installation**: Download and install the latest version of Python from [python.org](https://www.python.org). **Windows users**: Ensure "Add Python to PATH" is checked during installation.
-2. **Required Libraries**: Open your **Terminal** (macOS) or **Command Prompt** (Windows) and run:
+1. **Python Installation**: Download and install the latest version of Python from [python.org](https://www.python.org).
+   **Windows users**: Ensure "Add Python to PATH" is checked during installation.
+   **macOS users**: (optional) install newest version via (brew install python)
+3. **Required Libraries**: Open your **Terminal** (macOS) or **Command Prompt** (Windows) and run:
 ```bash
-pip install PyPDF2 pandas openpyxl
-
+pip install -r requirements.txt
 ```
 
-
-3. **Directory Setup**: Create a dedicated project folder and place both `pdftotxtLOOPER.py` and `txttoexcelLOOPER.py` inside it.
+3. **Directory Setup**:
+   * Download as .zip
+   * Extract zip in a dedicated project folder
 
 ---
 
