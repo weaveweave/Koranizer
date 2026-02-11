@@ -55,7 +55,7 @@ This step converts raw PDF data into searchable text files.
 
 * **Prepare Input**: Create a folder named `folder_pdf_anda` and place your PDF statements there.
 * **Configuration**: Open `pdftotxtLOOPER.py` and verify the folder names in the `# --- KONFIGURASI ---` section.
-* **Execution**:
+**Execution**:
 * **Windows**: `python src/pdftotxtLOOPER.py`
 * **macOS**: `python3 src/pdftotxtLOOPER.py`
 
@@ -67,7 +67,7 @@ This step converts raw PDF data into searchable text files.
 This step parses the text data into a structured financial spreadsheet.
 
 * **Configure Paths**: Open `txttoexcelLOOPER.py` and update the `folder_sumber` and `folder_hasil` variables with the absolute paths of your directories.
-* **Execution**:
+**Execution**:
 * **Windows**: `python src/txttoexcelLOOPER.py`
 * **macOS**: `python3 src/txttoexcelLOOPER.py`
 
