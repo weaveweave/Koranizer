@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Local Data Folders (Private)
+folder_pdf_anda/
+folder_hasil_teks/
+folder_excel/
+
+# Personal Files
+*.pdf
+*.txt
+*.xlsx
+
+# Environment
+.venv/
+venv/
